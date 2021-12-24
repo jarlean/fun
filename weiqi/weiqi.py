@@ -196,5 +196,5 @@ if __name__=='__main__':
     print('第%s场比赛后，晋级选手编号：%s'%(p+1,upg.player_upg.keys()))
     print('第%s场比赛后，失败选手编号：%s'%(p+1,upg.player_fail.keys()))
     print('*'*100)
-    print('本次比赛参与人数{}，晋级人数{}，未晋级人数{}，晋级率{}%'.format(count,len(upg.player_upg),len(upg.player_fail),(len(upg.player_upg)*100/count)))
+    print('本次比赛参与人数{}，晋级人数{}，未晋级人数{}，晋级率{}%'.format(count,len(upg.player_upg),len(upg.player_fail),round(len(upg.player_upg)*100/count,2)))
     print('*'*100)
